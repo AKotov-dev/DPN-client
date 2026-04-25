@@ -9,7 +9,7 @@ Deeper Network client (for testing purposes only)
 - /usr/share/lintian/overrides/dpn
 - /usr/share/pixmaps/dpn.png
 
-Первый запуск - требует root для запуска бэкэнда: `systemctl start dpn-app.service`
+Первый запуск - требует root для запуска бэкэнда: `systemctl start dpn-app.service`  
 **Локация:** /etc/systemd/system/dpn-app.service
 
 [Тестовый RPM только для тестирования на виртуальных машинах...](https://drive.google.com/drive/folders/1axiXNtRGGtPx1G1GgATTWJBfGoAR-azZ?usp=drive_link)
