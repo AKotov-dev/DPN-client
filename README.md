@@ -30,6 +30,6 @@ Deeper Network client (for testing purposes only)
 
 Подключение (особенно первое) проходит долго, скорость подключения удовлетворительная.
 
-Для энтузиастов из DEB собран RPM (проект *.prj для RPMCreator см. в репе).
+Для энтузиастов из DEB собран RPM (проект *.prj для [RPMCreator](https://github.com/AKotov-dev/RPMCreator) см. в репе).
 
 Если есть что сказать - пишите в issues.
