@@ -1,0 +1,94 @@
+[NAME]
+name=DPN
+
+[VERSION]
+version=2.0.0.260331
+
+[RELEASE]
+release=0.mrx10
+
+[GROUP]
+group=Networking/Other
+
+[DESCRIPTION]
+0=DPN client
+1=---
+2=More information: /usr/share/doc/package_name/repack.txt
+
+[MAINTAINER]
+maintainer=Alex Kotov
+
+[VENDOR]
+vendor=GitHub
+
+[SUMMARY]
+summary=DPN client
+
+[URLCOPY]
+urlcopy=https://dpn.deeper.network/
+
+[LICENSE]
+license=Electron
+
+[DEPS]
+deps=
+
+[META]
+meta=0
+
+[NOARCH]
+noarch=0
+
+[DEB]
+deb=0
+
+[FILES]
+0=/usr/lib/dpn/
+1=/usr/share/applications/dpn.desktop
+2=/usr/share/doc/dpn/
+3=/usr/share/lintian/overrides/dpn
+4=/usr/share/pixmaps/dpn.png
+
+[AFTERINSTALL]
+0=#!/bin/bash
+1=
+2=ln -sf /lib/dpn/DPN /usr/bin/dpn
+
+[AFTERREMOVE]
+0=#!/bin/bash
+1=
+2=systemctl daemon-reload >/dev/null 2>&1 || :
+
+[BEFOREREMOVE]
+0=#!/bin/bash
+1=
+2=if [ $1 -eq 0 ]; then
+3=
+4=# Проверяем, существует ли файл сервиса физически
+5=if [ -f /etc/systemd/system/dpn-app.service ]; then
+6=
+7=# 1. Останавливаем
+8=systemctl stop dpn-app.service >/dev/null 2>&1 || :
+9=
+10=# 2. Убираем из автозагрузки
+11=systemctl --no-reload disable dpn-app.service >/dev/null 2>&1 || :
+12=
+13=# 3. Удаляем динамический файл
+14=rm -f /etc/systemd/system/dpn-app.service
+15=
+16=# 4. Удаляем ссылку на DPN
+17=rm -f /usr/bin/dpn
+18=fi
+19=fi
+
+[URL32]
+url32=https://dpn.deeper.network/
+
+[PROGRAMNAME]
+programname=DPN
+
+[DEVTOOL]
+devtool=unknown
+
+[TOOLVERSION]
+toolversion=unknown
