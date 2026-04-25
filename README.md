@@ -1,7 +1,9 @@
 # DPN-client
-Deeper Network client (for testing purposes only)
+Deeper Network client (for testing purposes only)  
+HomePage: [macOS, Windows, Linux, App Store, Android](https://dpn.deeper.network/)
 
 ### Содержимое оригинального пакета DEB
+
 - /usr/bin/dpn (ссылка на /lib/dpn/DPN)
 - /usr/lib/dpn/
 - /usr/share/applications/dpn.desktop
