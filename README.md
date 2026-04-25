@@ -12,7 +12,7 @@ Deeper Network client (for testing purposes only)
 Первый запуск - требует root для запуска бэкэнда: `systemctl start dpn-app.service`  
 **Локация:** /etc/systemd/system/dpn-app.service
 
-[Тестовый RPM только для тестирования на виртуальных машинах...](https://drive.google.com/drive/folders/1axiXNtRGGtPx1G1GgATTWJBfGoAR-azZ?usp=drive_link)
+[RPM только для тестирования на виртуальных машинах...](https://drive.google.com/drive/folders/1axiXNtRGGtPx1G1GgATTWJBfGoAR-azZ?usp=drive_link)
 
 ![](https://github.com/AKotov-dev/DPN-client/blob/main/Snapshot_2026-04-24_08-14-051.png) ![](https://github.com/AKotov-dev/DPN-client/blob/main/Snapshot_2026-04-25_09-23-531.png)
 
