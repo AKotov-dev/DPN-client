@@ -32,7 +32,7 @@ HomePage: [macOS, Windows, Linux, App Store, Android](https://dpn.deeper.network
 
 В **Умном режиме** параллельно просматривает доступные ноды/узлы, в случае необходимости меняет локацию и протокол.
 
-Внутри страны (*.ru) ходит напрямую, поэтому сайты вроде "Госуслуг", "Ozon", "Wildberries" и подобные VPN не видят.
+Внутри страны (*.ru) ходит напрямую, поэтому сайты вроде "Госуслуг", "Ozon", "Wildberries" и т.п. VPN не видят.
 
 [DNS Leak](https://browserleaks.com/dns) не наблюдается (Mageia).
 
