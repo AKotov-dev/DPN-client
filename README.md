@@ -32,6 +32,8 @@ HomePage: [macOS, Windows, Linux, App Store, Android](https://dpn.deeper.network
 
 В **Умном режиме** параллельно просматривает доступные ноды/узлы, в случае необходимости меняет локацию и протокол.
 
+Внутри страны (*.ru) ходит напрямую, поэтому сайты вроде "Госуслуг", "Ozon", "Wildberries" и подобные VPN не видят.
+
 [DNS Leak](https://browserleaks.com/dns) не наблюдается (Mageia).
 
 **Важно:** Если используется `DNSCrypt` или DNS провайдера, нужно прописать обычные DNS в настройках карты, например Google/Cloudflare/Cisco/etc. В результате при подключении должен быть **Тип NAT: Port Restricted NAT**. Сложные цепочки DNS - плохо для `p2p/VPN/mesh`.
