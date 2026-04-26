@@ -38,6 +38,6 @@ DNS заворачивает в туннель корректно, [DNS Leak](ht
 
 Подключение (особенно первое) проходит долго, скорость подключения удовлетворительная.
 
-Для энтузиастов из DEB собран RPM. [Проект DPN.prj](https://github.com/AKotov-dev/DPN-client/blob/main/DPN.prj) для [RPMCreator](https://github.com/AKotov-dev/RPMCreator) см. в репе.
+Для энтузиастов из DEB собран RPM. Проект [DPN.prj](https://github.com/AKotov-dev/DPN-client/blob/main/DPN.prj) для [RPMCreator](https://github.com/AKotov-dev/RPMCreator) см. в репе.
 
 Если есть что сказать - пишите в issues.
