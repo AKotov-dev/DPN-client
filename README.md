@@ -11,7 +11,7 @@ HomePage: [macOS, Windows, Linux, App Store, Android](https://dpn.deeper.network
 - /usr/share/lintian/overrides/dpn
 - /usr/share/pixmaps/dpn.png
 
-[RPM пакет для (Mageia-10)...](https://drive.google.com/drive/folders/1axiXNtRGGtPx1G1GgATTWJBfGoAR-azZ?usp=drive_link)
+[RPM-пакет для (Mageia-10)...](https://drive.google.com/drive/folders/1axiXNtRGGtPx1G1GgATTWJBfGoAR-azZ?usp=drive_link)
 
 Первый запуск требует `root` для бэкэнда (запрос `pkexec`): `systemctl start dpn-app.service`  
 **Локация:** /etc/systemd/system/dpn-app.service
