@@ -2,7 +2,7 @@
 Deeper Network client  
 HomePage: [macOS, Windows, Linux, App Store, Android](https://dpn.deeper.network/)
 
-### Содержимое оригинального пакета DEB
+**Содержимое оригинального пакета DEB**
 
 - /usr/bin/dpn (ссылка на /lib/dpn/DPN)
 - /usr/lib/dpn/
@@ -11,9 +11,14 @@ HomePage: [macOS, Windows, Linux, App Store, Android](https://dpn.deeper.network
 - /usr/share/lintian/overrides/dpn
 - /usr/share/pixmaps/dpn.png
 
-[RPM-пакет для (Mageia-10)...](https://drive.google.com/drive/folders/1axiXNtRGGtPx1G1GgATTWJBfGoAR-azZ?usp=drive_link)
+[RPM-пакет для Mageia-9/10, Fedora. etc...](https://drive.google.com/drive/folders/1axiXNtRGGtPx1G1GgATTWJBfGoAR-azZ?usp=drive_link)
 
+**Зависимости** (не включены в пакет, уже есть в системе):
+```
+libgtk+3.0 lib64notify4 lib64nss3 xdg-utils "typelib(Atspi)" libdrm libgbm lib64xcb-dri3_0 glib2 gvfs
+```
 Первый запуск требует `root` для бэкэнда (запрос `pkexec`): `systemctl start dpn-app.service`  
+  
 **Локация сервиса:** /etc/systemd/system/dpn-app.service
 
 ![](https://github.com/AKotov-dev/DPN-client/blob/main/Snapshot_2026-04-24_08-14-051.png) ![](https://github.com/AKotov-dev/DPN-client/blob/main/Snapshot_2026-04-25_09-23-531.png)
@@ -38,7 +43,6 @@ HomePage: [macOS, Windows, Linux, App Store, Android](https://dpn.deeper.network
 
 **Важно:** Если используется `DNSCrypt` или DNS провайдера, нужно прописать обычные DNS в настройках карты, например Google/Cloudflare/Cisco/etc. В результате при подключении должен быть **Тип NAT: Port Restricted NAT**. Сложные цепочки DNS - плохо для `p2p/VPN/mesh`.
 
-Подключение (особенно первое) проходит долго (2-10 мин.), скорость подключения удовлетворительная.
-
+Подключение (особенно первое) проходит долго (2-10 мин.), скорость подключения удовлетворительная.  
+  
 Для энтузиастов из DEB собран RPM. Проект [DPN.prj](https://github.com/AKotov-dev/DPN-client/blob/main/DPN.prj) для [RPMCreator](https://github.com/AKotov-dev/RPMCreator) см. в репе.
-
