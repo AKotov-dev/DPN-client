@@ -19,7 +19,7 @@ libgtk+3.0 lib64notify4 lib64nss3 xdg-utils "typelib(Atspi)" libdrm libgbm lib64
 ```
 Первый запуск требует `root` для бэкэнда (запрос `pkexec`): `systemctl start dpn-app.service`  
   
-**Локация сервиса:** /etc/systemd/system/dpn-app.service
+**Расположение сервиса:** /etc/systemd/system/dpn-app.service
 
 ![](https://github.com/AKotov-dev/DPN-client/blob/main/Snapshot_2026-04-24_08-14-051.png) ![](https://github.com/AKotov-dev/DPN-client/blob/main/Snapshot_2026-04-25_09-23-531.png)
 
