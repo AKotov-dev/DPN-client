@@ -1,6 +1,5 @@
 # DPN-client
-Deeper Network client  
-HomePage: [macOS, Windows, Linux, App Store, Android](https://dpn.deeper.network/)
+[Deeper Network client](https://dpn.deeper.network/)
 
 **Содержимое оригинального пакета DEB**
 
